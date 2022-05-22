@@ -65,7 +65,7 @@ scene.background = spaceTexture;
 
 // Avatar
 
-const avnishTexture = new THREE.TextureLoader().load('avnish.jpg');
+const avnishTexture = new THREE.TextureLoader().load('IMG_20220327_214901_628 (1).webp');
 
 const avnish = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: avnishTexture }));
 
